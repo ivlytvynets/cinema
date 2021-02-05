@@ -4,11 +4,11 @@ import com.dev.cinema.dao.CinemaHallDao;
 import com.dev.cinema.exception.DataProcessingException;
 import com.dev.cinema.model.CinemaHall;
 import com.dev.cinema.util.HibernateUtil;
+import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import java.util.List;
 
-public class CinemaDaoImpl implements CinemaHallDao {
+public class CinemaHallDaoImpl implements CinemaHallDao {
     @Override
     public CinemaHall add(CinemaHall cinemaHall) {
         Session session = null;
