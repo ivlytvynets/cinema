@@ -32,8 +32,8 @@ public class InjectData {
         roleService.add(user);
 
         User joshua = new User();
-        joshua.setEmail("joshua@mail.com");
-        joshua.setPassword("12345678");
+        joshua.setEmail("admin@mail.com");
+        joshua.setPassword("1234");
         joshua.setRoles(Set.of(admin));
         userService.add(joshua);
     }
